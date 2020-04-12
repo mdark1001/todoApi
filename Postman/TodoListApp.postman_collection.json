@@ -1,0 +1,291 @@
+{
+	"id": "b630fba6-bc4f-c61b-0cc5-0faa66fb2c1e",
+	"name": "TodoListApp",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "User",
+			"description": "",
+			"collectionId": "b630fba6-bc4f-c61b-0cc5-0faa66fb2c1e",
+			"order": [
+				"ca792751-d734-f9a3-810c-c0d0ddf957f2",
+				"875a5aaa-2fcf-19cf-b060-66a03ed8a254",
+				"014f4973-88d6-f9b0-5735-aaacd31546ed",
+				"ae099354-1bb0-6e70-42dc-e954b02b2974",
+				"29606f70-ceb5-ad26-80b0-b8a0b77e2b45",
+				"2efada48-1b75-f45f-367b-b4155c00942f"
+			],
+			"owner": "11044642",
+			"folders_order": [],
+			"id": "66d0675e-358c-2f37-82e6-42e61e3c5aa4"
+		}
+	],
+	"folders_order": [
+		"66d0675e-358c-2f37-82e6-42e61e3c5aa4"
+	],
+	"timestamp": 1586634739122,
+	"owner": "11044642",
+	"public": false,
+	"requests": [
+		{
+			"id": "014f4973-88d6-f9b0-5735-aaacd31546ed",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZTkyMjBlNDA5YjU5NDUzMmQzNTk2OTMiLCJuYW1lIjoiTWlndWVsIENhYnJlcmEiLCJlbWFpbCI6Im1pZ3VlbC5jYWJyZXJhQG9vaGVsLm5ldCIsInJvbGUiOiJST0xFX0FETUlOIiwiaW1hZ2UiOiJudWxsIiwiaWF0IjoxNTg2NjM2MTgyLCJleHAiOjE1ODkyMjgxODJ9.EdIMEEAOq-wrZKDcBn8Utf3gVFu7Alr8Ysg5fCYzyKw\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZTkyMjBlNDA5YjU5NDUzMmQzNTk2OTMiLCJuYW1lIjoiTWlndWVsIENhYnJlcmEiLCJlbWFpbCI6Im1pZ3VlbC5jYWJyZXJhQG9vaGVsLm5ldCIsInJvbGUiOiJST0xFX0FETUlOIiwiaW1hZ2UiOiJudWxsIiwiaWF0IjoxNTg2NjM2MTgyLCJleHAiOjE1ODkyMjgxODJ9.EdIMEEAOq-wrZKDcBn8Utf3gVFu7Alr8Ysg5fCYzyKw",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3977/api/user/5e9220e409b594532d359693",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "Miguel Cabrera Ramírez",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1586636531472,
+			"name": "Update User",
+			"description": "",
+			"collectionId": "b630fba6-bc4f-c61b-0cc5-0faa66fb2c1e",
+			"responses": []
+		},
+		{
+			"id": "29606f70-ceb5-ad26-80b0-b8a0b77e2b45",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3977/api/user/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "miguel.cabrera@oohel.net",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "Pa55w0rd",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "gethash",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1586636190006,
+			"name": "User Login",
+			"description": "",
+			"collectionId": "b630fba6-bc4f-c61b-0cc5-0faa66fb2c1e",
+			"responses": []
+		},
+		{
+			"id": "2efada48-1b75-f45f-367b-b4155c00942f",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZTkyMjBlNDA5YjU5NDUzMmQzNTk2OTMiLCJuYW1lIjoiTWlndWVsIENhYnJlcmEgUmFtw61yZXoiLCJlbWFpbCI6Im1pZ3VlbC5jYWJyZXJhQG9vaGVsLm5ldCIsInJvbGUiOiJST0xFX0FETUlOIiwiaW1hZ2UiOiJudWxsIiwiaWF0IjoxNTg2NjM2NTE5LCJleHAiOjE1ODkyMjg1MTl9.J0Yu6DjqEpRqt_OlZYKtQe-ZKCfx6Sw25jf-I6zUppw\n//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZTkyMjBlNDA5YjU5NDUzMmQzNTk2OTMiLCJuYW1lIjoiTWlndWVsIENhYnJlcmEgUmFtw61yZXoiLCJlbWFpbCI6Im1pZ3VlbC5jYWJyZXJhQG9vaGVsLm5ldCIsInJvbGUiOiJST0xFX0FETUlOIiwiaW1hZ2UiOiJudWxsIiwiaWF0IjoxNTg2NjM2NTE5LCJleHAiOjE1ODkyMjg1MTl9.J0Yu6DjqEpRqt_OlZYKtQe-ZKCfx6Sw25jf-I6zUppw",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3977/api/user/uploadimage/5e9220e409b594532d359693",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "files",
+					"value": "pp.jpeg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1586638188970,
+			"name": "User upload image",
+			"description": "",
+			"collectionId": "b630fba6-bc4f-c61b-0cc5-0faa66fb2c1e",
+			"responses": []
+		},
+		{
+			"id": "875a5aaa-2fcf-19cf-b060-66a03ed8a254",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3977/api/user/",
+			"folder": "66d0675e-358c-2f37-82e6-42e61e3c5aa4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Miguel Cabrera",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "alias",
+					"value": "mdark1001",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "miguel.cabrera@oohel.net",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "Pa55w0rd",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1586635024374,
+			"name": "Create User",
+			"description": "",
+			"collectionId": "b630fba6-bc4f-c61b-0cc5-0faa66fb2c1e",
+			"responses": []
+		},
+		{
+			"id": "ae099354-1bb0-6e70-42dc-e954b02b2974",
+			"headers": "Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZTkyMjBlNDA5YjU5NDUzMmQzNTk2OTMiLCJuYW1lIjoiTWlndWVsIENhYnJlcmEgUmFtw61yZXoiLCJlbWFpbCI6Im1pZ3VlbC5jYWJyZXJhQG9vaGVsLm5ldCIsInJvbGUiOiJST0xFX0FETUlOIiwiaW1hZ2UiOiJudWxsIiwiaWF0IjoxNTg2NjM2NTE5LCJleHAiOjE1ODkyMjg1MTl9.J0Yu6DjqEpRqt_OlZYKtQe-ZKCfx6Sw25jf-I6zUppw\n//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZTkyMjBlNDA5YjU5NDUzMmQzNTk2OTMiLCJuYW1lIjoiTWlndWVsIENhYnJlcmEgUmFtw61yZXoiLCJlbWFpbCI6Im1pZ3VlbC5jYWJyZXJhQG9vaGVsLm5ldCIsInJvbGUiOiJST0xFX0FETUlOIiwiaW1hZ2UiOiJudWxsIiwiaWF0IjoxNTg2NjM2NTE5LCJleHAiOjE1ODkyMjg1MTl9.J0Yu6DjqEpRqt_OlZYKtQe-ZKCfx6Sw25jf-I6zUppw",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost:3977/api/user/5e9220e409b594532d359693",
+			"folder": "66d0675e-358c-2f37-82e6-42e61e3c5aa4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "name",
+					"value": "Miguel Cabrera Ramírez",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1586636917133,
+			"name": "User by Id",
+			"description": "",
+			"collectionId": "b630fba6-bc4f-c61b-0cc5-0faa66fb2c1e",
+			"responses": []
+		},
+		{
+			"id": "ca792751-d734-f9a3-810c-c0d0ddf957f2",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3977/api/user/test",
+			"folder": "66d0675e-358c-2f37-82e6-42e61e3c5aa4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1586634832369,
+			"name": "User Test",
+			"description": "",
+			"collectionId": "b630fba6-bc4f-c61b-0cc5-0faa66fb2c1e",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "ca792751-d734-f9a3-810c-c0d0ddf957f2"
+		}
+	]
+}
