@@ -1,5 +1,6 @@
 'use strict'
 var mongoose = require('mongoose');
+var paginate = require('mongoose-paginate');
 var Schema = mongoose.Schema;
 
 var ProjectSchema = Schema({
@@ -13,5 +14,7 @@ var ProjectSchema = Schema({
   priority: Number,
 
 });
+
+ProjectSchema.statics.paginate = paginate;
 
 module.exports = mongoose.model('Project',ProjectSchema);

@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 var app = express();
 //usar rutas
 var user_routes = require('./routes/user.routes.js');
-// var artist_routes = require('./routes/artis.routers.js');
+var project_routers = require('./routes/project.routers');
 // var album_routes = require('./routes/album.routers.js');
 // var core_catalogos = require('./routes/catalogos.routers');
 //configurar bodyParser
@@ -30,7 +30,7 @@ app.use((req, res, next) => {
 
 //ruta base
 app.use('/api/', user_routes);
-// app.use('/api/', artist_routes);
+app.use('/api/', project_routers);
 // app.use('/api/', album_routes);
 // app.use('/api/', core_catalogos);
 module.exports = app;
